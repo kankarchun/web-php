@@ -1,0 +1,107 @@
+#header{
+	background:linear-gradient(0deg,#BC0000,black,black);
+	background:-moz-linear-gradient(90deg,#BC0000,black,black);
+	background: -webkit-linear-gradient(90deg,#BC0000,black,black);
+}
+#recon{
+	display: flex;
+    flex-flow: row wrap;
+}
+
+#result{
+	padding:20px;
+	margin:5px;
+	background-color:#FFDBC1;
+	color:black;
+	width:550px;
+	position:relative;
+}
+#selectair,#hotelGetID{
+	width:250px;
+	font-size:16px;
+	background-color:#FFEDED;
+	color:black;
+	padding:5px;
+	border-radius:5px;
+}
+input[type=date],input[type=number],input[type=text],textarea{
+	font-size:16px;
+	background-color:#FFEDED;
+	color:black;
+	padding:5px;
+	border-radius:5px;
+}
+#addorder{
+	border:0;
+	background-image:url('../img/addorder.png');
+	opacity:0.6;
+}
+#addorder:hover{
+	opacity:1;
+}
+#addorder,#bookorder{
+	width:50px;
+	height:50px;
+	background-size:100% auto;
+	position:absolute;
+	top:10px;
+	right:10px;
+}
+
+#airicon{
+	position:absolute;
+	top:20px;
+	right:70px;
+	width:50px;
+}
+#lbl{
+	padding-left:30px;
+	font-size:16px;
+}
+#search{
+	background-color:#AE0000;
+	width:100%;
+	font-size:18px;
+	padding:5px;
+}
+#search:hover{
+	background-color:#CB1818;
+}
+
+input[type=button], input[type=submit]{
+	color:black;
+}
+
+#clear{
+	color:white;
+	border-top:0px;
+	border-left:0px;
+	background-color:transparent;
+	border-color:#717171;
+	outline: none;
+}
+
+#container{
+	color:black;
+	width:500px;
+	box-shadow:0 2px 10px black;
+	position:relative;
+	margin:auto;
+	background-color:#FFDBC1;
+	padding:30px;
+	margin-top:10%;
+	padding-bottom:50px;
+	overflow:hidden;
+	-webkit-animation-name: start;
+	-webkit-animation-duration: 1s;
+	animation-name: start;
+	animation-duration: 1s;
+}
+@keyframes start {
+	from {
+		max-height:0px;
+	}
+	to {
+		max-height:500px;
+	}
+}

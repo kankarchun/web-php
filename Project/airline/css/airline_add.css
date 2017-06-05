@@ -1,0 +1,48 @@
+input[type=submit] {
+    width: 100%;
+    background-color: #03669B;
+    color: white;
+    padding: 5px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover, input[type=submit]:focus{
+    background-color: #1689C6;
+}
+input[type=datetime]{
+	width:10px;
+}
+input,select{
+	font-size:17px;
+	background:#535353;
+	width:200px;
+}
+select{
+	width:202px;
+}
+input:focus,select:focus{
+	border-color:white;
+}
+#addschedulefrm,#addclassfrm{
+	padding:20px;
+	margin:auto;
+	margin-top:50px;
+	width:80%;
+	background-color:#535353;
+	text-align:center;
+}
+#addschedulefrm form{
+	text-align:left;
+	width:440px;
+	margin:auto;
+}
+#addclassfrm form{
+	text-align:left;
+	width:340px;
+	margin:auto;
+}
+td:first-child {
+	text-align:right;
+}

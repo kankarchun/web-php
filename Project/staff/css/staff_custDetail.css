@@ -1,0 +1,28 @@
+#custinfo{
+	background-color:#2D0303;
+	color:#D59292;
+	margin:auto;
+	width:500px;
+	position:relative;
+	margin-top:20px;
+	padding:20px;
+	border-radius:15px;
+}
+#edit{
+	position:absolute;
+	right:20px;
+}
+#edit a{
+	color:pink;
+}
+.rstable th{
+	color:#FFCECE;
+	background-color:#B20000;
+}
+.rstable td{
+	color:black;
+	background-color:#FFCECE;
+}
+.rstable a{
+	color:#2D0303;
+}

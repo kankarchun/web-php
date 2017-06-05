@@ -1,0 +1,29 @@
+.reminder{
+	display:none;
+}
+.reminder + .containReminder{
+	position:absolute;
+	top:15px;
+	right:15px;
+	display:inline-block;
+    width:80px;
+    height:80px;
+	background-size: 100%;
+    background-image:url("../img/reminder.png");
+    cursor:pointer;
+	opacity:0.3;
+}
+
+.reminder:checked + .containReminder {
+	opacity:1;
+}
+
+#result{
+	background-color:#D3FFCB;
+	color:black;
+	margin:auto;
+	margin-bottom:4px;
+	padding:20px;
+	position:relative;
+	width:700px;
+}

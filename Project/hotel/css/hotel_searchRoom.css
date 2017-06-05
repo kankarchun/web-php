@@ -1,0 +1,73 @@
+#room{
+	margin:auto;
+	display: block;
+	width:75%;
+	background-color:#9CE6E2;
+	margin-bottom:5px;
+	color:black;
+	padding:15px;
+}
+#room:hover{
+	background-color:#C6FFFD;
+}
+#rtype{
+	font-size:18px;
+}
+
+#price{
+	font-size:25px;
+	margin-right:10px;
+}
+#lbl input, #lbl select{
+	width:200px;
+	font-size:18px;
+	background-color:transparent;
+	color:black;
+	border-width:0 0 2px 0;
+	border-color:#717171;
+}
+#lbl select{
+	width:auto;
+}
+#lbl input:hover, #lbl select:hover, #lbl input:focus, #lbl select:focus{
+	border-color:#D2D2D2;
+}
+#btn{
+	float:right;
+}
+
+#update{
+	border-radius:5px;
+	border:0;
+	width:100px;
+	height:40px;
+	color:white;
+	background-color:#C49A06;
+}
+#update:hover,#update:focus{
+	background-color:#E6B400;
+}
+
+#desc{
+	border-radius:5px;
+	padding:10px;
+	box-shadow: inset 0px 0px 5px 0px black;
+	background-color:#D7FC4F;
+	width:80%;
+}
+
+#desc:hover{
+	background-color:#DCFF8E;
+}
+
+#updateframe{
+	position:absolute;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:600px;
+	height:400px;
+	border:0;
+}

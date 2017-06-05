@@ -1,0 +1,48 @@
+body{
+	padding:0 10px 0 10px;
+}
+input[type=text],input[type=number]{
+	background-color:transparent;
+	border-color:#717171;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	width:100%;
+	color:black;
+	font-size:18px;
+}
+textarea{
+	border:0;
+	background-color:#FFFECB;
+	width:99%;
+	color:black;
+	font-size:16px;
+	height:60px;
+}
+#updatebtn,#cancelbtn{
+	position:absolute;
+	bottom:0;
+	height:40px;
+	border:0;
+	font-size:18px;
+}
+#updatebtn{
+	left:0;
+	width:60%;
+	background-color:#0063EE;
+	color:#002558;
+}
+#updatebtn:hover,#updatebtn:focus{
+	background-color:#1275FF;
+}
+#cancelbtn{
+	right:0;
+	background-color:#C50000;
+	width:40%;
+	color:#670000;
+}
+#cancelbtn:hover,#cancelbtn:focus{
+	background-color:#DF1E1E;
+}
+#size{
+	width:90%;
+}

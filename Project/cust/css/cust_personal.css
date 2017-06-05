@@ -1,0 +1,13 @@
+td:first-child{
+	text-align:right;
+}
+#edit{
+	position:absolute;
+	top:25px;
+	right:25px;
+	color:#6A916F;
+	cursor:pointer;
+}
+#edit:hover, #edit:focus{
+	color:#14C223;
+}

@@ -1,0 +1,17 @@
+#container{
+	width:500px;
+}
+input[type=text]{
+	color:#11501A;
+}
+td{
+	text-align:left;
+}
+#ch,input[type=button]{
+	font-size:18px;
+	color:#11501A;
+	width:100%;
+}
+#ch:hover,input[type=button]:hover{
+	border:0;
+}

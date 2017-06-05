@@ -1,0 +1,17 @@
+td:first-child{
+	text-align:right;
+}
+#bookorder{
+	font-size:16px;
+}
+#clear{
+	font-size:18px;
+	background-color:#C32929;
+	color:#FFCECE;
+	margin:5px;
+	padding:5px;
+}
+#clear:hover{
+	background-color:#D72929;
+	color:#FEEBEB;
+}

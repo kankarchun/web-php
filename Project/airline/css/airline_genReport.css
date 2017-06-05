@@ -1,0 +1,83 @@
+#report{
+	width:90%;
+	margin: auto;
+	margin-top:20px;
+	background-color: #CFE9FF;
+	color:black;
+	border-radius:15px;
+	overflow-y:hidden;
+	-webkit-animation-name: start;
+	-webkit-animation-duration: 1s;
+	animation-name: start;
+	animation-duration: 1s;
+}
+
+@keyframes start {
+	from{
+		max-height: 185px;
+	}
+	
+	to {
+		max-height: 100vh;
+	}
+}
+input,select{
+	color:black;
+	font-size:16px;
+	margin-bottom:10px;
+}
+#frm{
+	padding:10px;
+	padding-left:20px;
+	background-color:#9DD2FF;
+	border-radius:15px 15px 0 0;
+	text-align:center;
+}
+select{
+	color:black;
+	border:2px black solid;
+	margin-right:30px;
+	width:200px;
+}
+input[type=submit]{
+	width:100%;
+}
+#content{
+	margin: 50px;
+	padding:0 50px 0 50px;
+}
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+tr:nth-child(even){
+	background-color: #9DD2FF
+}
+
+th {
+    background-color: #6297C5;
+    color: white;
+}
+
+#chart{
+	position: relative;
+	margin:auto;
+	width:800px;
+	height:400px;
+	background-color:white;	
+}
+.barct{
+	position:absolute;
+	bottom:0;
+	text-align:center;
+}
+.bar{
+	width:100px;
+	background-color:#32B3D0;
+}
+

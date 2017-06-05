@@ -1,0 +1,25 @@
+#result{
+	background-color:#D3FFCB;
+	color:black;
+	margin:5px;
+	padding:15px;
+	width:570px;
+}
+
+#pr{
+	font-size:22px;
+}
+
+#carriericon{
+	width:60px;
+	float:left;
+	margin-right:8px;
+}
+
+#recon{
+	display: flex;
+    flex-flow: row wrap;
+	max-height:180px;
+	overflow-y:scroll;
+}
+

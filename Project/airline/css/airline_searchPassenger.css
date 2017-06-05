@@ -1,0 +1,23 @@
+#passengerlist{
+	text-align:center;
+	display:block;
+}
+
+#selectbox{
+	text-align:left;
+	border:0;
+	box-shadow: 1px 1px 5px black;
+	margin:2px;
+	background-color:#427AAB;
+	width:600px;
+	padding:20px;
+	font-size:20px;
+}
+#selectbox:hover,#selectbox:focus{
+	background-color:#84AFD4;
+}
+#info{
+	background-color:#103A5A;
+	color:#B7E0FF;
+	padding:20px;
+}

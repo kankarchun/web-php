@@ -1,0 +1,41 @@
+#header{
+	background:linear-gradient(0deg,#16AD02,black,black);
+	background:-moz-linear-gradient(90deg,#16AD02,black,black);
+	background: -webkit-linear-gradient(90deg,#16AD02,black,black);
+}
+#remindmsg{
+	position:absolute;
+	top:0;
+	right:0;
+	width:480px;
+	max-height:90px;
+	background-color:rgba(0,0,0,0.2);
+	padding:5px;
+	color:yellow;
+	overflow-y: scroll;
+}
+#container{
+	color:black;
+	width:500px;
+	box-shadow:0 2px 10px black;
+	position:relative;
+	margin:auto;
+	background-color:#DDFFE4;
+	padding:30px;
+	margin-top:10%;
+	padding-bottom:50px;
+	overflow:hidden;
+	-webkit-animation-name: start;
+	-webkit-animation-duration: 1s;
+	animation-name: start;
+	animation-duration: 1s;
+}
+
+@keyframes start {
+	from {
+		max-height:0px;
+	}
+	to {
+		max-height:500px;
+	}
+}

@@ -1,0 +1,64 @@
+#recon{
+	display: flex;
+    flex-flow: row wrap;
+}
+#rs{
+	padding:20px;
+	margin:5px;
+	background-color:#FFDBC1;
+	color:black;
+	width:250px;
+	cursor:pointer;
+}
+#rs:hover{
+	background-color:#FFF0E5;
+}
+#frm{
+	display:flex;
+	width:600px;
+	margin:auto;
+	margin-top:5px;
+}
+#frmsearch{
+	color:black;
+	width:350px;
+	height:25px;
+	background-color:#FFEBEB;
+	border-radius:20px 0 0 20px;
+	position:relative;
+	padding:5px;
+	padding-left:15px;
+}
+#tf{
+	width:55%;
+}
+#search{
+	position:absolute;
+	right:10px;
+	top:2px;
+	background-image:url('../img/Search.png');
+	height:30px;
+	width:30px;
+	background-size:100% auto;
+	padding:2px;
+	background-color:transparent;
+	border:0;
+	background-repeat:no-repeat;
+}
+#search:hover{
+	background-color:transparent;
+	opacity:0.7;
+}
+#add{
+	background-color:#FFDBC1;
+	height:35px;
+	width:200px;
+	font-size:18px;
+	padding:5px;
+	border:0;
+	border-radius:0 20px 20px 0;
+	color:black;
+}
+#add:hover{
+	background-color:#FFF0E5;
+}

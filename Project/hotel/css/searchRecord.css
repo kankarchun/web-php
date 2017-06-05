@@ -1,0 +1,13 @@
+th, td {
+	text-align: left;
+	padding: 5px;
+}
+
+tr:hover td{
+	background-color:#C9B364;
+}
+
+tr th {
+    background-color: orange;
+    color: white;
+}

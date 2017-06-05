@@ -1,0 +1,192 @@
+#title{
+	padding:10px;
+	padding-top:35px;
+}
+
+#bg{
+	position:absolute;
+	top:0;
+	height:100vh;
+	width:100%;
+	background:linear-gradient(0deg,black,#3D3D3D,black);
+	background:-moz-linear-gradient(90deg,black,#3D3D3D,black);
+	background: -webkit-linear-gradient(90deg,black,#3D3D3D,black);
+}
+
+#input{
+	line-height:38px;
+	position:relative;
+	top:5px;
+}
+
+input[type='submit']{
+	height:28px;
+	width:180px;
+	font-size:16px;
+}
+
+#frm{
+	position:relative;
+	margin: auto;
+	top:30%;
+	width:400px;
+	height:320px;
+	background-color: rgba(93, 93, 93, 0.2);
+	text-align:center;
+}
+
+#btnlogin{
+	height:35px;
+	border-radius:2px;
+	border:0;
+	background-color:rgba(161, 183, 180, 0.3);
+	font-size:18px;
+	color:white;
+}
+
+#btnlogin:hover, #btnlogin:focus{
+	background-color:rgba(161, 183, 180, 0.5);
+}
+
+#msg{
+	color:red;
+	display:none;
+}
+
+#icon1,#icon2,#icon3{
+	opacity:0.7;
+	position:absolute;
+	width:100px;
+	height:100px;
+	background-size:100% auto;
+	background-image: url("../img/Airplane.png");
+	background-repeat:no-repeat;
+}
+
+#icon1{
+	top: 45%;
+	left: 340px;
+	-webkit-animation-name: start1;
+	-webkit-animation-duration: 4s;
+	animation-name: start1;
+	animation-duration: 4s;
+}
+#icon2{
+	top: 50%;
+	left: 200px;
+	-webkit-animation-name: start2;
+	-webkit-animation-duration: 4s;
+	animation-name: start2;
+	animation-duration: 4s;
+}
+#icon3{
+	top: 55%;
+	left: 60px;
+	-webkit-animation-name: start3;
+	-webkit-animation-duration: 4s;
+	animation-name: start3;
+	animation-duration: 4s;
+}
+
+@keyframes start1 {
+	from {
+		top: 75%;
+		left: -200px;
+	}
+
+	to {
+		top: 45%;
+		left: 340px;
+	}
+}
+
+@keyframes start2 {
+	from {
+		top: 70%;
+		left: -400px;
+	}
+
+	to {
+		top: 50%;
+		left: 200px;
+	}
+}
+
+@keyframes start3 {
+	from {
+		top: 65%;
+		left: -600px;
+	}
+
+	to {
+		top: 55%;
+		left: 60px;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	#icon1,#icon2,#icon3{
+		display:none;
+	}
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  border: 0;
+  outline: 0;
+}
+
+input[type='text'],input[type='password'] {
+  width: 220px;
+  padding: 10px 10px 12px 60px;
+  font-size: 12px;
+  border-bottom: 1px solid #aaa;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.css {
+  display: inline-block;
+  position: relative;
+  margin: 0 5px 0 0;
+}
+
+.css input {
+  transition: .1s all linear;
+}
+
+.css label {
+  position: absolute;
+  top: 13px;
+  left: 15px;
+  font-size: 12px;
+  color: #aaa;
+  transition: .1s all linear;
+  cursor: text;
+}
+
+.login .css.active input {
+  padding-left: 15px;
+}
+
+.login .css.active label {
+  top: 39px;
+  left: 0;
+  width: 220px;
+  padding: 3px 5px;
+  font-size: 10px;
+  color: #fff;
+  background: #aaa;
+}

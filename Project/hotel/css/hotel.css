@@ -1,0 +1,62 @@
+#header{
+	background:linear-gradient(0deg,#DAA520,black,black);
+	background:-moz-linear-gradient(90deg,#DAA520,black,black);
+	background: -webkit-linear-gradient(90deg,#DAA520,black,black);
+}
+
+#lbl{
+	padding-left:20px;
+}
+#holder{
+	border-radius:10px 10px 0 0;
+	width:100%;
+	background-color:#FFEC9D;
+	color:black;
+	padding-top:2px;
+	margin-top:5px;
+}
+
+#search {
+	width: 100%;
+	background-color: #FFC012;
+	color: white;
+	padding: 10px;
+	margin:5px 0 0 0;
+	border: none;
+	font-size:15px;
+}
+
+#search:hover,#search:focus {
+	background-color: #FFD86B;
+}
+
+select option{
+	color:black;
+	background:#FFF7B0;
+}
+
+h3{
+	color:#D5A400;
+}
+input,select{
+	color:black;
+}
+th, td {
+	text-align: left;
+	padding: 5px;
+}
+
+tr:nth-child(odd){
+	background-color: #FFFECB;
+	color:#3F3C34;
+}
+
+tr:nth-child(even){
+	background-color: #FFE49F;
+	color: #423916;
+}
+
+tr th {
+    background-color: orange;
+    color: white;
+}
